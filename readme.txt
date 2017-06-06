@@ -8,3 +8,5 @@ For Q2, please refer to StudentSorting folder, there are 2 files created, which 
 
 -Student.java // Student bean which consists of 3 fields and implements java Comparable Interface
 -StudentSortingTest.java // Main program that will sort the student list
+
+For Q3, please refer to Timing Measure Tool.docx file
