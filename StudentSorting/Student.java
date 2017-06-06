@@ -36,14 +36,17 @@ public class Student implements Comparable<Student>{
 	public int compareTo(Student student) {
 		Float compareGpa = student.getGpa();
 		
+		//descending order
 		int gpaCompare = compareGpa.compareTo(this.gpa);
 				
 		if(gpaCompare == 0){
 			
+			//ascending order
 			int nameCompare = this.name.compareTo(student.getName());
 			
 			if(nameCompare == 0){
 				
+				//ascending order
 				return this.studentId.compareTo(student.getStudentId());
 				
 			}else{
